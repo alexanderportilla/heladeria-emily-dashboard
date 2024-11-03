@@ -1,3 +1,33 @@
+# Heladería Emily Dashboard
+
+![Dashboard Heladeria Emily](https://github.com/alexanderportilla/heladeria-emily-dashboard/blob/af6001610a50d8a1ceba10564fd3066e3389f76d/Dashboard%20Heladeria%20Emily.png)
+
+## Descripción del Proyecto
+
+Este proyecto es un panel de control (*dashboard*) creado para la Heladería Emily. El objetivo del dashboard es proporcionar una herramienta visual y fácil de usar que permita a los usuarios gestionar distintos aspectos del negocio, como ventas, inventario, clientes, y más.
+
+El panel incluye gráficos interactivos y herramientas de navegación para analizar el rendimiento de la heladería, identificar áreas de mejora y facilitar la toma de decisiones. Este proyecto ayuda a la administración de la Heladería Emily proporcionando información clave, como el total de ventas del mes, nuevos clientes, pedidos totales, y distribución de ventas por producto.
+
+### Las principales funcionalidades incluyen:
+
+* **Total de Ventas**: Visualiza las ventas acumuladas del mes
+* **Nuevos Clientes**: Muestra cuántos nuevos clientes se han registrado
+* **Pedidos Totales**: Indica el número total de pedidos registrados
+* **Gráficos Interactivos**: Presentan datos como ingresos mensuales, visitas mensuales y la distribución de ventas por producto de manera clara y concisa
+
+Este tipo de información permite a los gerentes de la heladería tomar decisiones más informadas sobre promociones, productos más populares, y gestión del inventario.
+
+## Tecnologías Utilizadas
+
+Este proyecto está construido con las siguientes tecnologías:
+
+* **React**: Biblioteca principal para la creación de la interfaz de usuario
+* **Chart.js y Recharts**: Utilizados para la visualización de datos con gráficos interactivos
+* **Styled Components**: Para el diseño de componentes reutilizables y estilos CSS
+* **Tailwind CSS**: Framework de utilidades CSS para un diseño rápido y coherente
+* **React Router**: Para la navegación entre las diferentes páginas del panel
+* **Axios**: Para manejar solicitudes HTTP y comunicar con APIs externas
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
