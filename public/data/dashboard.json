@@ -1,0 +1,19 @@
+{
+  "metrics": {
+    "totalSales": 10000,
+    "newCustomers": 50,
+    "totalOrders": 200
+  },
+  "revenue": [
+    {"month": "Enero", "amount": 1000},
+    {"month": "Febrero", "amount": 2000}
+  ],
+  "visits": [
+    {"month": "Enero", "visitors": 100},
+    {"month": "Febrero", "visitors": 150}
+  ],
+  "salesDistribution": {
+    "productA": 300,
+    "productB": 500
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "metrics": {
+    "totalSales": 10000,
+    "newCustomers": 50,
+    "totalOrders": 200,
+    "totalProducts": 120,
+    "totalEmployees": 15,
+    "monthlyGrowthRate": 12.5
+  },
+  "revenue": [
+    { "month": "Enero", "amount": 1000 },
+    { "month": "Febrero", "amount": 2000 },
+    { "month": "Marzo", "amount": 1500 },
+    { "month": "Abril", "amount": 1800 }
+  ],
+  "visits": [
+    { "month": "Enero", "visitors": 100, "uniqueVisitors": 80 },
+    { "month": "Febrero", "visitors": 150, "uniqueVisitors": 120 },
+    { "month": "Marzo", "visitors": 200, "uniqueVisitors": 170 },
+    { "month": "Abril", "visitors": 220, "uniqueVisitors": 180 }
+  ],
+  "salesDistribution": [
+    { "product": "Helado de Vainilla", "amount": 300, "percentage": 30 },
+    { "product": "Helado de Chocolate", "amount": 400, "percentage": 40 },
+    { "product": "Helado de Fresa", "amount": 150, "percentage": 15 },
+    { "product": "Helado de Mango", "amount": 150, "percentage": 15 }
+  ],
+  "inventory": [
+    { "productId": 1, "name": "Helado de Vainilla", "stock": 120, "minStock": 50, "price": 2.5, "category": "Postres" },
+    { "productId": 2, "name": "Helado de Chocolate", "stock": 60, "minStock": 50, "price": 3.0, "category": "Postres" },
+    { "productId": 3, "name": "Helado de Fresa", "stock": 30, "minStock": 30, "price": 2.8, "category": "Postres" },
+    { "productId": 4, "name": "Helado de Mango", "stock": 20, "minStock": 25, "price": 3.2, "category": "Postres" }
+  ],
+  "customerDemographics": {
+    "ageGroups": {
+      "under18": 20,
+      "18to24": 40,
+      "25to34": 30,
+      "35to44": 25,
+      "45to54": 15,
+      "55plus": 10
+    },
+    "gender": {
+      "male": 55,
+      "female": 45
+    },
+    "location": [
+      { "city": "Bogotá", "percentage": 40 },
+      { "city": "Medellín", "percentage": 30 },
+      { "city": "Cali", "percentage": 20 },
+      { "city": "Barranquilla", "percentage": 10 }
+    ]
+  },
+  "weeklySales": [
+    { "week": "Week 1", "sales": 2500 },
+    { "week": "Week 2", "sales": 2700 },
+    { "week": "Week 3", "sales": 3000 },
+    { "week": "Week 4", "sales": 3200 }
+  ],
+  "monthlySalesByCategory": [
+    { "month": "Enero", "postres": 1000, "bebidas": 500, "comidas": 300 },
+    { "month": "Febrero", "postres": 1200, "bebidas": 600, "comidas": 400 },
+    { "month": "Marzo", "postres": 1300, "bebidas": 700, "comidas": 500 }
+  ],
+  "employeePerformance": [
+    { "employeeId": 1, "name": "Carlos Pérez", "role": "Cajero", "sales": 1500, "hoursWorked": 160 },
+    { "employeeId": 2, "name": "Laura García", "role": "Vendedor", "sales": 1800, "hoursWorked": 170 },
+    { "employeeId": 3, "name": "Miguel Gómez", "role": "Gerente", "sales": 2200, "hoursWorked": 180 }
+  ],
+  "feedback": [
+    { "customerId": 101, "feedback": "Me encanta el sabor de los helados", "rating": 5, "date": "2024-01-12" },
+    { "customerId": 102, "feedback": "Muy buen servicio, pero el precio es un poco alto", "rating": 4, "date": "2024-01-15" },
+    { "customerId": 103, "feedback": "Gran variedad de sabores", "rating": 5, "date": "2024-01-18" }
+  ]
+}
