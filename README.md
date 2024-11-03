@@ -1,6 +1,6 @@
 # Heladería Emily Dashboard
 
-![Dashboard Heladeria Emily](https://github.com/alexanderportilla/heladeria-emily-dashboard/blob/af6001610a50d8a1ceba10564fd3066e3389f76d/Dashboard%20Heladeria%20Emily.png)
+![Dashboard Heladeria Emily](https://github.com/alexanderportilla/heladeria-emily/blob/1e3a3054d6918b9ca935ba6cb8df3e803e8b36e9/heladeria-emily.png)
 
 ## Descripción del Proyecto
 
@@ -8,12 +8,12 @@ Este proyecto es un panel de control (*dashboard*) creado para la Heladería Emi
 
 El panel incluye gráficos interactivos y herramientas de navegación para analizar el rendimiento de la heladería, identificar áreas de mejora y facilitar la toma de decisiones. Este proyecto ayuda a la administración de la Heladería Emily proporcionando información clave, como el total de ventas del mes, nuevos clientes, pedidos totales, y distribución de ventas por producto.
 
-### Las principales funcionalidades incluyen:
+Las principales funcionalidades incluyen:
 
-* **Total de Ventas**: Visualiza las ventas acumuladas del mes
-* **Nuevos Clientes**: Muestra cuántos nuevos clientes se han registrado
-* **Pedidos Totales**: Indica el número total de pedidos registrados
-* **Gráficos Interactivos**: Presentan datos como ingresos mensuales, visitas mensuales y la distribución de ventas por producto de manera clara y concisa
+- **Total de Ventas**: Visualiza las ventas acumuladas del mes.
+- **Nuevos Clientes**: Muestra cuántos nuevos clientes se han registrado.
+- **Pedidos Totales**: Indica el número total de pedidos registrados.
+- **Gráficos Interactivos**: Presentan datos como ingresos mensuales, visitas mensuales y la distribución de ventas por producto de manera clara y concisa.
 
 Este tipo de información permite a los gerentes de la heladería tomar decisiones más informadas sobre promociones, productos más populares, y gestión del inventario.
 
@@ -21,80 +21,97 @@ Este tipo de información permite a los gerentes de la heladería tomar decision
 
 Este proyecto está construido con las siguientes tecnologías:
 
-* **React**: Biblioteca principal para la creación de la interfaz de usuario
-* **Chart.js y Recharts**: Utilizados para la visualización de datos con gráficos interactivos
-* **Styled Components**: Para el diseño de componentes reutilizables y estilos CSS
-* **Tailwind CSS**: Framework de utilidades CSS para un diseño rápido y coherente
-* **React Router**: Para la navegación entre las diferentes páginas del panel
-* **Axios**: Para manejar solicitudes HTTP y comunicar con APIs externas
+- **React**: Biblioteca principal para la creación de la interfaz de usuario.
+- **Chart.js y Recharts**: Utilizados para la visualización de datos con gráficos interactivos.
+- **Styled Components**: Para el diseño de componentes reutilizables y estilos CSS.
+- **Tailwind CSS**: Framework de utilidades CSS para un diseño rápido y coherente.
+- **React Router**: Para la navegación entre las diferentes páginas del panel.
+- **Axios**: Para manejar solicitudes HTTP y comunicar con APIs externas.
 
-# Getting Started with Create React App
+## Estructura del Proyecto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+La estructura del proyecto se encuentra organizada de la siguiente forma:
 
-## Available Scripts
+```
+heladeria-emily-dashboard/
+├── public/
+│   ├── data/
+│   ├── index.html
+│   ├── manifest.json
+│   └── robots.txt
+├── src/
+│   ├── assets/
+│   │   └── logo.png
+│   ├── components/
+│   │   ├── Charts/
+│   │   │   ├── BarChart.js
+│   │   │   ├── LineChart.js
+│   │   │   └── PieChart.js
+│   │   ├── Card.js
+│   │   ├── DashboardCards.js
+│   │   ├── Header.js
+│   │   └── Sidebar.js
+│   ├── pages/
+│   │   ├── About.js
+│   │   ├── Alerts.js
+│   │   ├── Customers.js
+│   │   ├── Dashboard.js
+│   │   ├── Inventory.js
+│   │   ├── Sales.js
+│   │   ├── Settings.js
+│   │   └── Upgrade.js
+│   ├── App.css
+│   └── App.js
+```
 
-In the project directory, you can run:
+### Descripción de las Carpetas
 
-### `npm start`
+- **public/**: Contiene el archivo principal HTML, el manifiesto de la aplicación y otros recursos estáticos.
+- **src/assets/**: Incluye los activos como el logo de la heladería.
+- **src/components/**: Componentes reutilizables, incluyendo los gráficos y otros elementos visuales.
+- **src/pages/**: Páginas de la aplicación, cada una representando una sección del dashboard (e.g., Ventas, Inventario, Ajustes).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Dependencias
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Las principales dependencias utilizadas en el proyecto se encuentran especificadas en el archivo `package.json`. Algunas de las más relevantes son:
 
-### `npm test`
+- **@mui/material**: Para el diseño de la interfaz de usuario.
+- **chart.js** y **react-chartjs-2**: Para la generación de gráficos.
+- **tailwindcss**: Framework para la gestión de estilos.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Scripts Disponibles
 
-### `npm run build`
+En el proyecto puedes utilizar los siguientes scripts:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- `npm start`: Inicia la aplicación en modo de desarrollo.
+- `npm run build`: Construye la aplicación para producción.
+- `npm run test`: Ejecuta las pruebas.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instalación y Uso
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/tu_usuario/heladeria-emily-dashboard.git
+   ```
+2. Instalar las dependencias:
+   ```bash
+   npm install
+   ```
+3. Iniciar el proyecto en modo desarrollo:
+   ```bash
+   npm start
+   ```
+4. Acceder a la aplicación en el navegador en `http://localhost:3000`.
 
-### `npm run eject`
+## Contribuciones
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Si deseas contribuir a este proyecto, por favor realiza un fork del repositorio, crea una rama para tus cambios y realiza un pull request cuando tu trabajo esté listo.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Licencia
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Este proyecto está bajo la licencia MIT. Sírvase consultar el archivo `LICENSE` para más detalles.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contacto
 
-## Learn More
+Para preguntas o sugerencias, puedes contactarme a través de [tu correo electrónico] o abrir un issue en GitHub.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
