@@ -1,6 +1,6 @@
 # Heladería Emily Dashboard
 
-![Dashboard Heladeria Emily](https://github.com/alexanderportilla/heladeria-emily/blob/1e3a3054d6918b9ca935ba6cb8df3e803e8b36e9/heladeria-emily.png)
+![Dashboard Heladeria Emily](https://github.com/alexanderportilla/heladeria-emily-dashboard/blob/9705a2eaafc8fd1854c2620da56bf64cd006f0b7/Dashboard%20Heladeria%20Emily.png)
 
 ## Descripción del Proyecto
 
